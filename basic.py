@@ -3,5 +3,6 @@ newgreet = "hello this is new greeting"
 
 
 print("this conflict line from master")
+print("this conflict line from cool")
 
 print(greet)
