@@ -1,0 +1,2 @@
+k = "cool"
+print(k)
