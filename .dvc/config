@@ -1,0 +1,4 @@
+[core]
+    remote = learning
+['remote "learning"']
+    url = ../s3
