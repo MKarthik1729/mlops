@@ -1,6 +1,8 @@
 import pytest
-from firstprocedure import firstprocedure
-from secondprocedure import secondprocedure
+def firstprocedure(a,b,c):
+    return a+b+c
+def secondprocedure(a,b):
+    return a*b
 
 # Function to test square
 def square(n):
