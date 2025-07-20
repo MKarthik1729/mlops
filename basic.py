@@ -2,6 +2,6 @@ greet = "hello this is greeting"
 newgreet = "hello this is new greeting"
 
 
-print("this conflict line")
+print("this conflict line from master")
 
 print(greet)
