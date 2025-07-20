@@ -5,30 +5,30 @@ stages:
     deps:
     - path: data1/values.csv
       hash: md5
-      md5: 713277d8b768644a60954849264c4a47
-      size: 21
+      md5: 67a6b037cab7e9770f107c5ddc87a921
+      size: 16
     - path: src/firstprocedure.py
       hash: md5
-      md5: 6c8600e3310140497ad78ba9fb7bbcc6
-      size: 716
+      md5: 727572fde8f95abd383749fcb88b728c
+      size: 838
     outs:
     - path: data1/first_procedure_output.csv
       hash: md5
-      md5: ab893122ad970ca3d9ffee0c79848914
-      size: 12
+      md5: 9c764b1a707ee8e81f3f513854b626e8
+      size: 9
   second_procedure:
     cmd: python src/secondprocedure.py
     deps:
     - path: data1/first_procedure_output.csv
       hash: md5
-      md5: ab893122ad970ca3d9ffee0c79848914
-      size: 12
+      md5: 9c764b1a707ee8e81f3f513854b626e8
+      size: 9
     - path: src/secondprocedure.py
       hash: md5
-      md5: b3d5a17fc596d2959c2eb623c8dc9b76
-      size: 525
+      md5: 406af6a39b8b303d8c2bb270b6a1d282
+      size: 684
     outs:
     - path: data1/second_procedure_output.csv
       hash: md5
-      md5: 9a01f37c0360f49410288c389ceafa01
-      size: 20
+      md5: aea06066a0fd5d9d5e1e28b16482fe64
+      size: 18

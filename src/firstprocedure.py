@@ -1,7 +1,6 @@
 import pandas as pd
 import os
-
-
+from yamlReader import load_params
 
 
 
@@ -14,13 +13,14 @@ def firstprocedure(a,b,c):
 
 
 if __name__ == "__main__":
+    params = load_params(params_path='params.yaml')
     # print(firstprocedure(1,2))
     # read the csv file
     df = pd.read_csv("data1/values.csv")
     print(df)
     # add a column to the csv file
     # df["sum"] = df["a"] + df["b"]
-    disturbance = 100
+    disturbance = params["first_procedure"]["disturbance"]
     data = firstprocedure(df["val1"],df["val2"],disturbance)
     print(data)
 

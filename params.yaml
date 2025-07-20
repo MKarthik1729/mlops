@@ -1,0 +1,6 @@
+first_procedure:
+  disturbance: 10
+
+second_procedure:
+  adder: 50
+  multiplier: 50
