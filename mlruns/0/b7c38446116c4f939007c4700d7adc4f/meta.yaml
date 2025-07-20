@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/0/b7c38446116c4f939007c4700d7adc4f/artifacts
+end_time: 1753030229733
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b7c38446116c4f939007c4700d7adc4f
+run_name: nosy-moth-601
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753030229224
+status: 4
+tags: []
+user_id: localadmin
