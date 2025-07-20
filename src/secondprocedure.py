@@ -1,5 +1,6 @@
 import pandas as pd
 from yamlReader import load_params
+from dvclive import Live
 
 def secondprocedure(a,b):
     return a*b
@@ -20,3 +21,6 @@ if __name__ == "__main__":
     total={"multiplied":[data]}
     df = pd.DataFrame(total)
     df.to_csv("data1/second_procedure_output.csv",index=False)
+    with Live(save_dvc_exp=True) as live:
+
+        live.log_metric("multiplied",data)

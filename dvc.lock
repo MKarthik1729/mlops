@@ -9,8 +9,8 @@ stages:
       size: 16
     - path: src/firstprocedure.py
       hash: md5
-      md5: 727572fde8f95abd383749fcb88b728c
-      size: 838
+      md5: 863e9135d6c2855c8b9e2f685a2685ae
+      size: 978
     outs:
     - path: data1/first_procedure_output.csv
       hash: md5
@@ -25,8 +25,8 @@ stages:
       size: 9
     - path: src/secondprocedure.py
       hash: md5
-      md5: 406af6a39b8b303d8c2bb270b6a1d282
-      size: 684
+      md5: 2a138b5f0a81082fb2d60356f1d58a7c
+      size: 799
     outs:
     - path: data1/second_procedure_output.csv
       hash: md5
